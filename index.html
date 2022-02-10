@@ -1,0 +1,40 @@
+
+<!DOCTYPE>
+<html>	
+	<head>
+		<title>This is a test page </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+                <marquee> My Favourite cricketers </marquee>
+		<script>
+			function change1()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyo4DLkFOg-0We1n0r9Pd9pGTHbHhQLoB1jg&usqp=CAU" width="600">';
+			}
+			
+			function change2()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqZlkjgPy-T11twib08a8RUouC0AVCiqrBQ&usqp=CAU" width="600">';
+			}
+
+			function change3()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiXUkHWezGcg3nHnngDbSP8c4UxEdA6tZXeg&usqp=CAU" width="600">';
+			}
+
+
+			function change4()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55ZCG3go4L6GXmgOKWS7nXpr6nCyEDidAwA&usqp=CAU" width="600">';
+			}
+		</script>
+	</head>
+	<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdu-YvRJwKtetrCtq5vppSkYaRy3S1OMGAgpQ9rLwrG05WA6bbiqp9N6oNeh7xEUsl4Wk&usqp=CAU" align="center">
+
+		<a onclick="change1()"><button>DHONI</button></a>
+		<a onclick="change2()"><button>RAINA</button></a>
+    	        <a onclick="change3()"><button>JADEJA</button></a>
+		<a onclick="change4()"><button>BRAVO</button></a>
+		<div id="changing_image"></div>
+	</body>
+</html>
